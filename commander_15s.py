@@ -19,10 +19,10 @@ def commander_15s(mac, mode):
 	else:
 		pwd_len = 10
 
-	# charset 1 for commander mode 15
-	# charset 2 for commander mode 16
-	# charset 3 for commander mode 20,21#
-	# charset 4 for commander mode 22
+	# charset 0 for commander mode 15
+	# charset 1 for commander mode 16
+	# charset 2 for commander mode 20,21#
+	# charset 3 for commander mode 22
 	charset = [
 		'987654321ABCDEFGHIJKLMNPQRSTUVWXYZ',
 		'98765432abcdefghjknpqrstuvwxyzABCDEFGHJKLMNPQRSTUVWXYZ',
