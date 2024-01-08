@@ -14,7 +14,7 @@ import argparse
 
 def commander_15s(mac, mode):
 
-	if mode == 2:
+	if mode == 1:
 		pwd_len = 16
 	else:
 		pwd_len = 10
